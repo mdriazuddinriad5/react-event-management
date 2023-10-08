@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Birthday Party",
+        "image": "https://i.ibb.co/s1csyWv/birthday-p.jpg",
+        "price": 5000,
+        "short_description": "Celebrate your special day with friends and family."
+    },
+    {
+        "id": 2,
+        "name": "Wedding Ceremony",
+        "image": "https://i.ibb.co/7t5405c/wedding-p.jpg",
+        "price": 50000,
+        "short_description": "Exchange vows in a beautiful and romantic setting."
+    },
+    {
+        "id": 3,
+        "name": "Anniversary Celebration",
+        "image": "https://i.ibb.co/FxS10dQ/anniversary-p.jpg",
+        "price": 10000,
+        "short_description": "Commemorate your years of love and commitment."
+    },
+    {
+        "id": 4,
+        "name": "Baby Shower",
+        "image": "https://i.ibb.co/L87Sd3R/baby-p.jpg",
+        "price": 2000,
+        "short_description": "Welcome a new life with joy and anticipation."
+    },
+    {
+        "id": 5,
+        "name": "Bridal Shower",
+        "image": "https://i.ibb.co/CHzzWd2/bridal-p.png",
+        "price": 1500,
+        "short_description": "Celebrate the bride-to-be with gifts and fun."
+    },
+    {
+        "id": 6,
+        "name": "Engagement Party",
+        "image": "https://i.ibb.co/bL1cMDk/engaged-p.jpg",
+        "price": 3000,
+        "short_description": "Toast to the newly engaged couple's future together."
+    },
+    {
+        "id": 7,
+        "name": "Housewarming Party",
+        "image": "https://i.ibb.co/m6p4y5V/housw-Warming-p.jpg",
+        "price": 1500,
+        "short_description": "Welcome friends and family to your new home."
+    },
+    {
+        "id": 8,
+        "name": "Graduation Party",
+        "image": "https://i.ibb.co/C9ssbzS/grad-p.jpg",
+        "price": 2500,
+        "short_description": "Celebrate academic achievements with friends."
+    },
+    {
+        "id": 9,
+        "name": "Holiday Gathering",
+        "image": "https://i.ibb.co/Zhy641n/holiday-p.jpg",
+        "price": 5000,
+        "short_description": "Spread cheer and goodwill during the holiday season."
+    },
+    {
+        "id": 10,
+        "name": "Barbecue (BBQ) Party",
+        "image": "https://i.ibb.co/nfzQ6M0/bbq-p.jpg",
+        "price": 2000,
+        "short_description": "Enjoy a casual and flavorful outdoor feast."
+    },
+    {
+        "id": 11,
+        "name": "Theme Party",
+        "image": "https://i.ibb.co/rZgXVZg/theme-p.jpg",
+        "price": 2500,
+        "short_description": "Dress up and immerse yourself in a themed event."
+    },
+    {
+        "id": 12,
+        "name": "Prom Night",
+        "image": "https://i.ibb.co/2SjdBDM/prom-p.jpg",
+        "price": 3000,
+        "short_description": "Dance the night away in style with classmates."
+    }
+]

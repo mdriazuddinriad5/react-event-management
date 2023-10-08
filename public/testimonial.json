@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "review": "Excellent service, made our wedding unforgettable.",
+        "image": "https://i.ibb.co/xjXY8Jp/auth1.jpg",
+        "author": "Emily"
+    },
+    {
+        "id": 2,
+        "review": "Magical anniversary night, creative ideas exceeded expectations.",
+        "image": "https://i.ibb.co/pffCxG3/auth2.jpg",
+        "author": "Sarah"
+    },
+    {
+        "id": 3,
+        "review": "Memorable engagement, unique theme and flawless execution.",
+        "image": "https://i.ibb.co/2S9B2XY/auth3.jpg",
+        "author": "Jessica"
+    },
+    {
+        "id": 4,
+        "review": "Flawless corporate gala, professionalism and creativity impressed.",
+        "image": "https://i.ibb.co/b1Wy9hj/auth4.jpg",
+        "author": "Alex"
+    },
+    {
+        "id": 5,
+        "review": "High-end elegance, top-notch decor, entertainment, and service.",
+        "image": "https://i.ibb.co/w4HjS4s/auth5.jpg",
+        "author": "William"
+    },
+    {
+        "id": 6,
+        "review": "Transformed our backyard, a breathtaking garden for a sweet sixteen.",
+        "image": "https://i.ibb.co/PWSz4KW/auth6.jpg",
+        "author": "Sophie"
+    },
+    {
+        "id": 7,
+        "review": "Meticulously planned family reunion, every detail ensured a fantastic time.",
+        "image": "https://i.ibb.co/Hr8TyFH/auth7.jpg",
+        "author": "Thomas"
+    },
+    {
+        "id": 8,
+        "review": "Unforgettable prom night, exceptional venue, decor, and entertainment.",
+        "image": "https://i.ibb.co/mGZVKV7/auth8.jpg",
+        "author": "Daniel"
+    },
+    {
+        "id": 9,
+        "review": "Charity gala success, precision planning and an impressive ambiance.",
+        "image": "https://i.ibb.co/VQtz0W4/auth9.jpg",
+        "author": "Michael"
+    },
+    {
+        "id": 10,
+        "review": "Extraordinary product launch, remarkable creativity and branding.",
+        "image": "https://i.ibb.co/CJSZZQd/auth10.webp",
+        "author": "Olivia"
+    }
+]
