@@ -6,26 +6,28 @@ import About from "../Pages/About/About";
 import Details from "../Pages/Details/Details";
 import ShoppingCart from "../Pages/ShoppingCart/ShoppingCart";
 import Gallery from "../Pages/Gallery/Gallery";
+import Login from "../Pages/Login/Login";
+import Register from "../Pages/Register/Register";
 
-const router= createBrowserRouter([
+const router = createBrowserRouter([
     {
-        path:'/',
+        path: '/',
         element: <Root></Root>,
         errorElement: <ErrorLayout></ErrorLayout>,
         children: [
             {
                 path: '/',
                 element: <Home></Home>,
-                loader: ()=> fetch('/services.json')
+                loader: () => fetch('/services.json')
             },
             {
-                path:'/about',
+                path: '/about',
                 element: <About></About>
             },
             {
                 path: '/details/:id',
                 element: <Details></Details>,
-                loader: ()=> fetch('/services.json')
+                loader: () => fetch('/services.json')
             },
             {
                 path: '/shop',
@@ -33,7 +35,15 @@ const router= createBrowserRouter([
             },
             {
                 path: '/gallery',
-                element:<Gallery></Gallery>
+                element: <Gallery></Gallery>
+            },
+            {
+                path: '/login',
+                element: <Login></Login>
+            },
+            {
+                path: '/register',
+                element: <Register></Register>
             }
         ]
     }

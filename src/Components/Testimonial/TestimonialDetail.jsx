@@ -2,7 +2,7 @@
 const TestimonialDetail = ({ testimonial }) => {
     const { review, image, author } = testimonial;
 
-    console.log(review)
+
     return (
         <div>
             <div className="carousel-item">
