@@ -4,9 +4,9 @@ import Service from "./Service";
 const Services = ({ services }) => {
     const [showAll, setShowAll]= useState(false);
     return (
-        <div className="my-10">
+        <div className="mt-10 mb-20">
             <h2 className="text-3xl text-center font-extrabold">Our Services</h2>
-            <div className="grid grid-cols-3 gap-10 mt-8 w-5/6 mx-auto">
+            <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 mt-8 w-5/6 mx-auto">
                 {
                     showAll? services.map(service => <Service service={service} key={service.id}></Service>) 
                     : services.slice(0,6).map(service => <Service service={service} key={service.id}></Service>) 

@@ -18,9 +18,9 @@ console.log(greetign);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>Defined variable is greeting. greetign is not defined. It can a typing mistake. Therefore, attempting to print something which is not defined gives ReferenceError </i>
 
 </p>
 </details>
@@ -43,9 +43,9 @@ sum(1, "2");
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>sum function is expecting two number variable. Here 1 is a number and 2 is a string. This function concatenates 1 with "2" and gives "12" which is a string.  </i>
 
 </p>
 </details>
@@ -69,9 +69,9 @@ console.log(food);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: A
 
-<i>Write your explanation here</i>
+<i>An array named food that contains 4 elements. Then info object is assigned with the first index of the food array. Hence, that didn't change anything to the output as the original food array is printed using console log. </i>
 
 </p>
 </details>
@@ -94,9 +94,9 @@ console.log(sayHi());
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: B
 
-<i>Write your explanation here</i>
+<i>sayHi function takes one parameter to concatenate with 'Hi there'. But it is called without parameter. That results undefined in the output. </i>
 
 </p>
 </details>
@@ -122,9 +122,9 @@ console.log(count);
 <details><summary><b>Answer</b></summary>
 <p>
 
-#### Answer: ?
+#### Answer: C
 
-<i>Write your explanation here</i>
+<i>0 is a falsy value. After first iteration count remain 0. Next 3 iterations, counter increases by 1 each time as 1,2,3 inside nums array are truthy value. So, the output is 3</i>
 
 </p>
 </details>

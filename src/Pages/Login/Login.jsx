@@ -1,10 +1,11 @@
 import { useContext, useEffect, useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 import Swal from "sweetalert2";
 
 const Login = () => {
     const { signIn, googleSignIn } = useContext(AuthContext);
+    const location= useLocation();
     const navigate = useNavigate();
 
     const [success, setSuccess] = useState('');
@@ -42,7 +43,7 @@ const Login = () => {
             await signIn(email, password);
             setSuccess('Logged in successfully');
             e.target.reset();
-            navigate('/');
+            navigate(location?.state ? location.state : '/')
         } catch (error) {
             console.error(error);
             console.log("Error code:", error.code); // Log the error code
@@ -66,7 +67,7 @@ const Login = () => {
         .then(result=>{
             console.log(result.user)
             setSuccess('Logged in successfully');
-            navigate('/');
+            navigate(location?.state ? location.state : '/')
         })
         .catch(error=>{
             console.log(error.message)

@@ -1,7 +1,7 @@
 
 const ErrorLayout = () => {
     return (
-        <div>
+        <div className="h-screen flex justify-center items-center">
             Error 404
         </div>
     );

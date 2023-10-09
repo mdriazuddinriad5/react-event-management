@@ -21,15 +21,19 @@ const NavBar = () => {
         <li><NavLink to={'/gallery'} className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
         }>Gallery</NavLink></li>
-        <li><NavLink to={'/shop'} className={({ isActive, isPending }) =>
-            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
-        }>Shopping Cart</NavLink></li>
+
+        {
+            user && <li><NavLink to={'/shop'} className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+            }>Shopping Cart</NavLink></li>
+        }
+
         <li><NavLink to={'/about'} className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
         }>About</NavLink></li>
     </>
     return (
-        <div className="navbar bg-base-100 w-5/6 mx-auto">
+        <div className="navbar bg-base-100 w-5/6 mx-auto flex flex-col lg:flex-row">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -50,6 +54,7 @@ const NavBar = () => {
 
                 {
                     user ? <>
+                    
                         <p className="mr-2 text-blue-400 font-bold ">{user.displayName}</p>
                         <img className="w-8 rounded-full mr-2" src={user.photoURL} />
 

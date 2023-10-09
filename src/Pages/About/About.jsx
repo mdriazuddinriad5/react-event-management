@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <div className="w-5/6 mx-auto px-28 py-16 shadow-xl">
+            <div className="w-5/6 mx-auto lg:px-28 lg:py-16 shadow-xl">
                 <h2 className="text-3xl font-bold">About EventElegance: Crafting Timeless Memories</h2>
                 <p className="mt-6 text-justify">At EventElegance, we specialize in transforming your dreams into memorable and extraordinary events. With an unwavering commitment to elegance, sophistication, and meticulous attention to detail, we craft moments that linger in your heart forever.</p>
                 <h2 className="text-xl font-semibold my-6">Our Story</h2>

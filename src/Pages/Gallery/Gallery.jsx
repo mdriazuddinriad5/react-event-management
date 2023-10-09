@@ -29,12 +29,12 @@ const Gallery = () => {
     return (
         <div>
             <NavBar></NavBar>
-            <div className="grid grid-cols-4 w-5/6 mx-auto mt-6">
+            <div className="grid lg:grid-cols-4 grid-cols-1 w-5/6 mx-auto mt-6">
                 <div className="space-y-4">
                     <h2 onClick={() => handleCategoryClick(null)} className="text-2xl">All Categories</h2>
                     {categories.map(category => (
                         <button
-                            className="block ml-4"
+                            className="lg:block ml-4"
                             key={category.id}
                             onClick={() => handleCategoryClick(category.id)}
                         >
@@ -42,8 +42,8 @@ const Gallery = () => {
                         </button>
                     ))}
                 </div>
-                <div className="col-span-3">
-                    <div className="grid grid-cols-3 gap-4">
+                <div className="lg:col-span-3">
+                    <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
                         {imagesToDisplay.map((image, index) => (
                             <img
                                 className="h-52 w-full"

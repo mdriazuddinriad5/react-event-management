@@ -7,7 +7,7 @@ const Banner = () => {
 
     const [imageLoaded, setImageLoaded] = useState(false);
     return (
-        <div>
+        <div className="mt-2">
             <div className="hero lg:h-[70vh] relative">
 
 

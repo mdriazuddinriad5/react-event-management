@@ -8,6 +8,7 @@ import ShoppingCart from "../Pages/ShoppingCart/ShoppingCart";
 import Gallery from "../Pages/Gallery/Gallery";
 import Login from "../Pages/Login/Login";
 import Register from "../Pages/Register/Register";
+import PrivateRoute from "../Layout/Root/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -26,16 +27,16 @@ const router = createBrowserRouter([
             },
             {
                 path: '/details/:id',
-                element: <Details></Details>,
+                element: <PrivateRoute><Details></Details></PrivateRoute>,
                 loader: () => fetch('/services.json')
             },
             {
                 path: '/shop',
-                element: <ShoppingCart></ShoppingCart>
+                element: <PrivateRoute><ShoppingCart></ShoppingCart></PrivateRoute> 
             },
             {
                 path: '/gallery',
-                element: <Gallery></Gallery>
+                element: <PrivateRoute><Gallery></Gallery></PrivateRoute> 
             },
             {
                 path: '/login',

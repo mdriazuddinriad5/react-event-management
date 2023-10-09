@@ -48,7 +48,7 @@ const ViewDetail = ({ detail }) => {
     return (
         <div className="w-5/6 my-20 mx-auto">
 
-            <div className="relative flex w-full  mx-auto flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md mt-10">
+            <div className="relative flex lg:w-full  mx-auto flex-row rounded-xl bg-white bg-clip-border text-gray-700 shadow-md lg:mt-10">
                 <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-white bg-clip-border text-gray-700">
                     <img
                         src={image}
@@ -65,7 +65,7 @@ const ViewDetail = ({ detail }) => {
                         {description}
                     </p>
 
-                    <div className="flex justify-between items-center">
+                    <div className="flex flex-col lg:flex-row lg:justify-between items-center">
                         <p>Price: ${price}</p>
                         <button onClick={handleAddToLS} className='btn bg-red-400'>
                             Buy this package
