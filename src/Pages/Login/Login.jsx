@@ -2,6 +2,8 @@ import { useContext, useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/AuthProvider";
 import Swal from "sweetalert2";
+import NavBar from "../../Components/NavBar/NavBar";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
     const { signIn, googleSignIn } = useContext(AuthContext);
@@ -77,12 +79,16 @@ const Login = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Login</title>
+            </Helmet>
+            <NavBar></NavBar>
             <div className=" mt-10 bg-base-200">
                 <div className="flex-col">
                     <div className="text-center mb-6">
                         <h1 className="text-3xl font-bold">Login now!</h1>
                     </div>
-                    <div className="card shadow-2xl w-1/3 mx-auto bg-base-100">
+                    <div className="card shadow-2xl lg:w-1/3 mx-auto bg-base-100">
                         <form onSubmit={handleLogin} className="card-body">
                             <div className="form-control">
                                 <label className="label">

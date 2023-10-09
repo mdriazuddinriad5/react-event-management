@@ -2,6 +2,7 @@ import { useLoaderData, useParams } from "react-router-dom";
 import NavBar from "../../Components/NavBar/NavBar";
 import { useEffect, useState } from "react";
 import ViewDetail from "./ViewDetail";
+import { Helmet } from "react-helmet-async";
 
 const Details = () => {
     const [detail, setDetail] = useState([]);
@@ -18,6 +19,9 @@ const Details = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Package | Details</title>
+            </Helmet>
             <NavBar></NavBar>
             <ViewDetail detail={detail}></ViewDetail>
 

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import NavBar from "../../Components/NavBar/NavBar";
+import { Helmet } from "react-helmet-async";
 
 const Gallery = () => {
     const [categories, setCategories] = useState([]);
@@ -28,6 +29,9 @@ const Gallery = () => {
 
     return (
         <div>
+            <Helmet>
+                <title>Gallery</title>
+            </Helmet>
             <NavBar></NavBar>
             <div className="grid lg:grid-cols-4 grid-cols-1 w-5/6 mx-auto mt-6">
                 <div className="space-y-4">
@@ -42,7 +46,7 @@ const Gallery = () => {
                         </button>
                     ))}
                 </div>
-                <div className="lg:col-span-3">
+                <div className="lg:col-span-3 mt-8 lg:0">
                     <div className="grid lg:grid-cols-3 grid-cols-1 gap-4">
                         {imagesToDisplay.map((image, index) => (
                             <img

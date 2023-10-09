@@ -5,7 +5,7 @@ import Swal from "sweetalert2";
 
 const ViewDetail = ({ detail }) => {
 
-    const { id, name, price, image, description } = detail;
+    const { id, name, price, image, description, short_description } = detail;
 
 
     const handleAddToLS = () => {
@@ -57,17 +57,21 @@ const ViewDetail = ({ detail }) => {
                     />
                 </div>
                 <div className="p-6">
-                    <h6 className="mb-4 block font-sans text-base font-semibold uppercase leading-relaxed tracking-normal text-red-900 antialiased">
+                    <h6 className="mb-4 block font-sans text-base md:font-semibold md:uppercase leading-relaxed tracking-normal text-red-900 antialiased">
                         {name}
                     </h6>
 
-                    <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
+                    <p className="mb-8 hidden md:block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
                         {description}
                     </p>
 
+                    <p className="mb-4 md:hidden block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
+                        {short_description}
+                    </p>
+
                     <div className="flex flex-col lg:flex-row lg:justify-between items-center">
-                        <p>Price: ${price}</p>
-                        <button onClick={handleAddToLS} className='btn bg-red-400'>
+                        <p className="mb-4 md:mb-0">Price: ${price}</p>
+                        <button onClick={handleAddToLS} className='md:btn px-3 py-2 rounded-lg bg-red-400 text-sm'>
                             Buy this package
                         </button>
 
