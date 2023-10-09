@@ -6,7 +6,6 @@ const Footer = () => {
         <footer className="footer footer-center mt-28 w-full py-10 bg-[#D2691E] text-base-content rounded">
             <nav className="grid grid-flow-col gap-6">
                 <Link to={'/'}>Home</Link>
-                <Link to={'/features'}>Features</Link>
                 <Link to={'/gallery'}>Gallery</Link>
                 <Link to={'/shop'}>Shopping Cart</Link>
                 <Link to={'/about'}>About</Link>

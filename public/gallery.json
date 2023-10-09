@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "category": "Birthday Party",
+        "images": [
+            "https://i.ibb.co/s1csyWv/birthday-p.jpg",
+            "https://i.ibb.co/xSCTCjq/bp-2.jpg",
+            "https://i.ibb.co/qMfh38g/bp-3.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Wedding Ceremony",
+        "images": [
+            "https://i.ibb.co/7t5405c/wedding-p.jpg",
+            "https://i.ibb.co/100zjnb/wp-2.jpg",
+            "https://i.ibb.co/DGMtRMr/wp-3.webp"
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Anniversary Celebration",
+        "images": [
+            "https://i.ibb.co/FxS10dQ/anniversary-p.jpg",
+            "https://i.ibb.co/zSDXdDH/ap-2.jpg",
+            "https://i.ibb.co/dKFvPsk/ap-3.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Baby Shower",
+        "images": [
+            "https://i.ibb.co/L87Sd3R/baby-p.jpg",
+            "https://i.ibb.co/xzzPqgV/bs-2.webp",
+            "https://i.ibb.co/BVNdsW3/bs-3.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Bridal Shower",
+        "images": [
+            "https://i.ibb.co/CHzzWd2/bridal-p.png",
+            "https://i.ibb.co/Qm0M0DR/bsp2.webp",
+            "https://i.ibb.co/9p6Tf1L/bsp3.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "category": "Engagement Party",
+        "images": [
+            "https://i.ibb.co/bL1cMDk/engaged-p.jpg",
+            "https://i.ibb.co/xYWGLTn/ep.jpg",
+            "https://i.ibb.co/SQNddmd/ep3.webp"
+        ]
+    },
+    {
+        "id": 7,
+        "category": "Housewarming Party",
+        "images": [
+            "https://i.ibb.co/m6p4y5V/housw-Warming-p.jpg",
+            "https://i.ibb.co/0MMSPHJ/hp2.jpg",
+            "https://i.ibb.co/QMCgDP4/hp3.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "category": "Graduation Party",
+        "images": [
+            "https://i.ibb.co/C9ssbzS/grad-p.jpg",
+            "https://i.ibb.co/ZNfhBpC/gp2.jpg",
+            "https://i.ibb.co/fMMwNHd/gp3.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "category": "Holiday Gathering",
+        "images": [
+            "https://i.ibb.co/Zhy641n/holiday-p.jpg",
+            "https://i.ibb.co/GxYtGHG/hp2.jpg",
+            "https://i.ibb.co/1v7W4QT/hp3.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "category": "Barbecue (BBQ) Party",
+        "images": [
+            "https://i.ibb.co/nfzQ6M0/bbq-p.jpg",
+            "https://i.ibb.co/g4tMT8s/bbp2.webp",
+            "https://i.ibb.co/7gfvTVX/bbp3.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "category": "Theme Party",
+        "images": [
+            "https://i.ibb.co/rZgXVZg/theme-p.jpg",
+            "https://i.ibb.co/hMxzrQB/tp2.jpg",
+            "https://i.ibb.co/drj9CS1/tp3.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "category": "Prom Night",
+        "images": [
+            "https://i.ibb.co/2SjdBDM/prom-p.jpg",
+            "https://i.ibb.co/7yyPWZP/pn2.jpg",
+            "https://i.ibb.co/hdbCqJ3/pm3.jpg"
+        ]
+    }
+]

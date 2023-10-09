@@ -5,6 +5,7 @@ import ErrorLayout from "../Layout/ErrorLayout/ErrorLayout";
 import About from "../Pages/About/About";
 import Details from "../Pages/Details/Details";
 import ShoppingCart from "../Pages/ShoppingCart/ShoppingCart";
+import Gallery from "../Pages/Gallery/Gallery";
 
 const router= createBrowserRouter([
     {
@@ -29,6 +30,10 @@ const router= createBrowserRouter([
             {
                 path: '/shop',
                 element: <ShoppingCart></ShoppingCart>
+            },
+            {
+                path: '/gallery',
+                element:<Gallery></Gallery>
             }
         ]
     }

@@ -6,10 +6,15 @@ const NavBar = () => {
         <li><NavLink to={'/'} className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
         }>Home</NavLink></li>
-        <li><NavLink to={'/features'}>Features</NavLink></li>
-        <li><NavLink to={'/gallery'}>Gallery</NavLink></li>
-        <li><NavLink to={'/shop'}>Shopping Cart</NavLink></li>
-        <li><NavLink to={'/about'}>About</NavLink></li>
+        <li><NavLink to={'/gallery'} className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+        }>Gallery</NavLink></li>
+        <li><NavLink to={'/shop'} className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+        }>Shopping Cart</NavLink></li>
+        <li><NavLink to={'/about'} className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "text-[#FF444A] underline" : ""
+        }>About</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100 w-5/6 mx-auto">
