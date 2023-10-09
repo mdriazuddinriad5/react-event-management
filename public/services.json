@@ -4,83 +4,95 @@
         "name": "Birthday Party",
         "image": "https://i.ibb.co/s1csyWv/birthday-p.jpg",
         "price": 5000,
-        "short_description": "Celebrate your special day with friends and family."
+        "short_description": "Celebrate your special day with friends and family.",
+        "description": "A Birthday Party is a joyful occasion, and it deserves to be celebrated with all the pomp and grandeur you desire. At EventElegance, we specialize in creating unforgettable birthday experiences tailored to your preferences. Whether you're planning a surprise party for a loved one or celebrating a milestone of your own, we're here to make it extraordinary.\n\nOur team of expert event planners will work closely with you to bring your vision to life. From selecting the perfect venue to crafting a personalized theme, every detail is meticulously planned. Imagine a beautifully decorated space filled with laughter, music, and the aroma of delectable cuisine. We can make it happen.\n\nWith EventElegance, you have the freedom to choose from a wide range of entertainment options, from live bands and DJs to fun games and activities. Your guests will be enchanted by the ambiance, and you'll be able to focus on enjoying your special day.\n\nLet us turn your birthday into a cherished memory. Whether it's an intimate gathering or a grand soirée, EventElegance promises a celebration that reflects your personality and style."
     },
     {
         "id": 2,
         "name": "Wedding Ceremony",
         "image": "https://i.ibb.co/7t5405c/wedding-p.jpg",
         "price": 50000,
-        "short_description": "Exchange vows in a beautiful and romantic setting."
+        "short_description": "Exchange vows in a beautiful and romantic setting.",
+        "description": "Your wedding day is a momentous occasion that marks the beginning of your lifelong journey together as a couple. At EventElegance, we understand the significance of this day, and we are committed to making it truly special. Our Wedding Ceremony packages are designed to create the perfect setting for your love story.\n\nPicture exchanging vows in a breathtaking venue adorned with exquisite decor that reflects your style and vision. Our team of skilled wedding planners will assist you in every step of the planning process, from choosing the ideal location to coordinating every detail on your big day.\n\nWith EventElegance, you can be confident that your wedding ceremony will be a reflection of your love, with no detail overlooked. Whether you dream of a rustic outdoor wedding, an elegant ballroom affair, or a destination wedding in a tropical paradise, we have the expertise to bring your vision to life.\n\nLet us take care of the logistics, so you can focus on the most important part—celebrating your love surrounded by family and friends. Your wedding day is a moment you'll treasure forever, and EventElegance is here to ensure it's perfect in every way."
     },
     {
         "id": 3,
         "name": "Anniversary Celebration",
         "image": "https://i.ibb.co/FxS10dQ/anniversary-p.jpg",
         "price": 10000,
-        "short_description": "Commemorate your years of love and commitment."
+        "short_description": "Commemorate your years of love and commitment.",
+        "description": "An Anniversary Celebration is a beautiful opportunity to pause, reflect, and commemorate the love and commitment you've shared throughout the years. EventElegance is here to help you create a heartfelt and memorable anniversary celebration that honors your journey together.\n\nWhether you're celebrating one year or a golden anniversary, our team of experienced event planners will work closely with you to craft an event that captures the essence of your relationship. We believe that every love story is unique, and your anniversary celebration should be no different.\n\nImagine a romantic evening at a stunning venue, where every detail is designed to create a romantic atmosphere. From the decor to the music to the delicious cuisine, we ensure that your celebration is a reflection of your love and devotion.\n\nAt EventElegance, we take care of all the details, so you can focus on creating cherished memories with your partner and loved ones. Whether you prefer an intimate dinner or a grand affair, we have the expertise to make your anniversary celebration truly special."
     },
     {
         "id": 4,
         "name": "Baby Shower",
         "image": "https://i.ibb.co/L87Sd3R/baby-p.jpg",
         "price": 2000,
-        "short_description": "Welcome a new life with joy and anticipation."
+        "short_description": "Welcome a new life with joy and anticipation.",
+        "description": "Welcoming a new life into the world is a joyous occasion, and a Baby Shower is the perfect way to celebrate. At EventElegance, we specialize in creating heartwarming and memorable baby showers that capture the excitement and anticipation of this special time.\n\nOur expert event planners will work closely with you to design a baby shower that reflects your style and preferences. Whether you envision a traditional event with soft pastels or a trendy and modern affair, we have the creativity and expertise to bring your vision to life.\n\nPicture a beautifully decorated venue filled with laughter, games, and heartfelt wishes for the little one on the way. Our attention to detail ensures that every aspect of your baby shower is flawless, from the decor to the delicious treats.\n\nLet EventElegance handle the planning and coordination, so you can focus on enjoying this precious moment with your loved ones. We believe that every baby is a blessing, and your baby shower should be a celebration filled with love and joy."
     },
     {
         "id": 5,
         "name": "Bridal Shower",
         "image": "https://i.ibb.co/CHzzWd2/bridal-p.png",
         "price": 1500,
-        "short_description": "Celebrate the bride-to-be with gifts and fun."
+        "short_description": "Celebrate the bride-to-be with gifts and fun.",
+        "description": "A Bridal Shower is a time-honored tradition that celebrates the bride-to-be and her upcoming journey into marriage. At EventElegance, we specialize in creating memorable and heartfelt bridal showers that honor this special moment.\n\nOur experienced event planners will work closely with you to craft a bridal shower that reflects the bride's personality and style. Whether you envision an elegant afternoon tea, a glamorous soirée, or a fun and relaxed gathering, we have the expertise to make it a reality.\n\nImagine a beautifully decorated venue where friends and family come together to shower the bride with love, laughter, and thoughtful gifts. We take care of every detail, from the decor to the activities, ensuring that the bridal shower is a reflection of the bride's unique journey.\n\nLet EventElegance handle the planning and coordination, so you can focus on creating cherished memories with the bride and your loved ones. Our goal is to make the bridal shower a joyful and unforgettable experience that celebrates the bride-to-be."
     },
     {
         "id": 6,
         "name": "Engagement Party",
         "image": "https://i.ibb.co/bL1cMDk/engaged-p.jpg",
         "price": 3000,
-        "short_description": "Toast to the newly engaged couple's future together."
+        "short_description": "Toast to the newly engaged couple's future together.",
+        "description": "An Engagement Party is a special occasion that marks the beginning of a couple's journey toward marriage. At EventElegance, we believe that this momentous event deserves to be celebrated in style. We specialize in creating elegant and memorable engagement parties that capture the essence of love and commitment.\n\nOur experienced event planners will work closely with you to design an engagement party that reflects the unique personalities and love story of the newly engaged couple. Whether you envision a sophisticated soirée, a romantic garden affair, or a themed celebration, we have the creativity and expertise to bring your vision to life.\n\nImagine a beautifully decorated venue where friends and family come together to toast to the future and celebrate the love that brought you to this moment. We take care of all the details, from the decor to the entertainment, ensuring that the engagement party is a reflection of your love and joy.\n\nLet EventElegance handle the planning and coordination, so you can focus on savoring this precious moment with your loved ones. We are committed to making your engagement party a memorable and elegant celebration of love."
     },
     {
         "id": 7,
         "name": "Housewarming Party",
         "image": "https://i.ibb.co/m6p4y5V/housw-Warming-p.jpg",
         "price": 1500,
-        "short_description": "Welcome friends and family to your new home."
+        "short_description": "Welcome friends and family to your new home.",
+        "description": "Moving into a new home is a significant milestone, and it's a perfect reason to celebrate with a Housewarming Party. At EventElegance, we understand the importance of this moment, and we specialize in creating warm and welcoming housewarming gatherings.\n\nOur expert event planners will work closely with you to design a housewarming party that reflects your style and personality. Whether you envision a cozy and intimate gathering or a larger affair, we have the expertise to make it a memorable event.\n\nImagine a beautifully decorated space where friends and family gather to celebrate your new chapter. We take care of every detail, from the decor to the menu, ensuring that the housewarming party is a reflection of your joy and gratitude.\n\nLet EventElegance handle the planning and coordination, so you can focus on welcoming your loved ones to your new home. We believe that a housewarming party should be a warm and inviting celebration of new beginnings."
     },
     {
         "id": 8,
         "name": "Graduation Party",
         "image": "https://i.ibb.co/C9ssbzS/grad-p.jpg",
         "price": 2500,
-        "short_description": "Celebrate academic achievements with friends."
+        "short_description": "Celebrate academic achievements with friends.",
+        "description": "Graduation is a significant milestone in one's academic journey, and it deserves a celebration to remember. At EventElegance, we specialize in creating memorable Graduation Parties that honor your hard work and achievements.\n\nOur experienced event planners will work closely with you to design a graduation party that reflects your personality and academic journey. Whether you envision a casual and fun gathering or a more formal affair, we have the expertise to make it a memorable event.\n\nImagine a beautifully decorated venue filled with laughter, music, and the sense of accomplishment. We take care of every detail, from the decor to the entertainment, ensuring that the graduation party is a reflection of your success and dreams.\n\nLet EventElegance handle the planning and coordination, so you can focus on celebrating with friends and family. Graduation is a momentous occasion, and we are committed to making your party a joyful and unforgettable celebration of your achievements."
     },
     {
         "id": 9,
         "name": "Holiday Gathering",
         "image": "https://i.ibb.co/Zhy641n/holiday-p.jpg",
         "price": 5000,
-        "short_description": "Spread cheer and goodwill during the holiday season."
+        "short_description": "Spread cheer and goodwill during the holiday season.",
+        "description": "The holiday season is a time of warmth, joy, and togetherness, and it's the perfect opportunity to host a Holiday Gathering. At EventElegance, we specialize in creating festive and memorable gatherings that capture the spirit of the season.\n\nOur expert event planners will work closely with you to design a holiday gathering that reflects your holiday traditions and vision. Whether you envision a cozy and intimate family gathering or a larger festive celebration, we have the creativity and expertise to bring your holiday dreams to life.\n\nImagine a beautifully decorated venue filled with the magic of the holidays, where friends and family come together to spread cheer and goodwill. We take care of every detail, from the decor to the festive menu, ensuring that the holiday gathering is a reflection of your holiday spirit.\n\nLet EventElegance handle the planning and coordination, so you can focus on creating cherished holiday memories with your loved ones. We believe that the holiday season is a time to celebrate love, joy, and the bonds that bring us together."
     },
     {
         "id": 10,
         "name": "Barbecue (BBQ) Party",
         "image": "https://i.ibb.co/nfzQ6M0/bbq-p.jpg",
         "price": 2000,
-        "short_description": "Enjoy a casual and flavorful outdoor feast."
+        "short_description": "Enjoy a casual and flavorful outdoor feast.",
+        "description": "There's something inherently special about a Barbecue (BBQ) Party - the aroma of sizzling meats, the warmth of the sun, and the laughter of friends and family. At EventElegance, we specialize in creating casual and flavorful outdoor feasts that bring people together.\n\nOur expert event planners will work closely with you to design a BBQ party that suits your preferences. Whether you envision a relaxed backyard BBQ or a more elaborate outdoor feast, we have the expertise to make it a delicious and enjoyable event.\n\nPicture a beautifully set outdoor space where guests can savor mouthwatering BBQ dishes, play games, and enjoy the outdoors. We take care of every detail, from the BBQ menu to the decor, ensuring that the BBQ party is a flavorful and fun experience.\n\nLet EventElegance handle the planning and coordination, so you can relax and savor the flavors of your BBQ party with your loved ones. We believe that a BBQ party should be a laid-back and enjoyable celebration of good food and great company."
     },
     {
         "id": 11,
         "name": "Theme Party",
         "image": "https://i.ibb.co/rZgXVZg/theme-p.jpg",
         "price": 2500,
-        "short_description": "Dress up and immerse yourself in a themed event."
+        "short_description": "Dress up and immerse yourself in a themed event.",
+        "description": "Step into a world of imagination and fun with a Theme Party at EventElegance. Whether you're a fan of masquerade balls, retro dances, or any other theme, we specialize in creating immersive and entertaining themed events that transport you to another world.\n\nOur expert event planners will work closely with you to bring your chosen theme to life. From selecting the perfect venue to crafting unique decorations, we have the creativity and expertise to make your theme party unforgettable.\n\nImagine a venue transformed into a wonderland, where guests are encouraged to dress up and fully immerse themselves in the theme. We take care of every detail, from the thematic decor to entertainment that perfectly complements the theme.\n\nLet EventElegance handle the planning and coordination, so you can focus on enjoying the immersive experience of your theme party. We believe that a theme party should be a memorable and entertaining celebration where fantasy meets reality."
     },
     {
         "id": 12,
         "name": "Prom Night",
         "image": "https://i.ibb.co/2SjdBDM/prom-p.jpg",
         "price": 3000,
-        "short_description": "Dance the night away in style with classmates."
+        "short_description": "Dance the night away in style with classmates.",
+        "description": "Prom Night is a cherished high school tradition, and at EventElegance, we understand the importance of making it a night to remember. Our Prom Night packages are designed to create an elegant and unforgettable experience for you and your classmates.\n\nOur experienced event planners will work closely with your school to design a Prom Night that captures the essence of sophistication and style. Imagine a beautifully decorated venue where you and your classmates can dance the night away in style.\n\nWe take care of every detail, from the elegant decor to the music that keeps the dance floor alive. Our goal is to ensure that your Prom Night is a reflection of the joy of completing high school and the excitement of the future.\n\nLet EventElegance handle the planning and coordination, so you can focus on creating cherished memories with your classmates. We believe that Prom Night is a milestone worth celebrating in style."
     }
 ]

@@ -3,6 +3,8 @@ import Root from "../Layout/Root/Root";
 import Home from "../Pages/Home/Home";
 import ErrorLayout from "../Layout/ErrorLayout/ErrorLayout";
 import About from "../Pages/About/About";
+import Details from "../Pages/Details/Details";
+import ShoppingCart from "../Pages/ShoppingCart/ShoppingCart";
 
 const router= createBrowserRouter([
     {
@@ -18,6 +20,15 @@ const router= createBrowserRouter([
             {
                 path:'/about',
                 element: <About></About>
+            },
+            {
+                path: '/details/:id',
+                element: <Details></Details>,
+                loader: ()=> fetch('/services.json')
+            },
+            {
+                path: '/shop',
+                element: <ShoppingCart></ShoppingCart>
             }
         ]
     }

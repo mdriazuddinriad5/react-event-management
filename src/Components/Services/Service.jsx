@@ -11,7 +11,7 @@ const Service = ({ service }) => {
                     <p>{short_description}</p>
                     <div className="flex justify-between items-center my-4">
                         <p>${price}</p>
-                        <Link><button className="px-4 py-2 rounded-lg bg-green-300">Details</button></Link>
+                        <Link to={`/details/${id}`}><button className="px-4 py-2 rounded-lg bg-green-300">View Details</button></Link>
 
                     </div>
                 </div>
